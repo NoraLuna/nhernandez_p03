@@ -25,6 +25,29 @@ Los marcadores moleculares son biomoléculas que se pueden relacionar con un ras
 1.4 ¿Cuál es la importancia de este tipo de marcador en particular?
 El DNA ribosomal 16s se encuentra en todos los organismos. Este gen contiene regiones de alta variabilidad, que permiten clasificar a nivel de especie y cepa.
 
+
+2.
+
+Tipo: BLASTN	
+Definición: Comparar secuencias de nucleótidos con secuencias de nucleótidos	
+Aplicación: Análisis filogenético
+
+Tipo:BLASTP	
+Definición: Comparar secuencias de aminoácidos, con secuencias proteicas de la base de datos
+Aplicación: Para realizar los alineamientos, aunque puede usar una matriz definida por el usuario
+
+Tipo:BLASTX	
+Definición: Comparar secuencias de nucleótidos con secuencias proteícas	
+Aplicación: Busca las proteínas que codifican una secuencia
+
+Tipo:TBLASTX	
+Definición: Comparar todos los marcos de lectura de una secuencia respecto a los marcos de lectura de una base de datos	
+Aplicación: Verificar el efecto de mutaciones en el marco de lectura.
+
+Tipo:TBLASTN	
+Definición: Comparar secuencias proteicas con secuencias de nucelótido de la base de datos	
+Aplicación: Buscar secuencias de nucleótidos que codifiquen para esa proteína
+
 # Parte II.
 
 # Parte III.
@@ -32,3 +55,5 @@ El DNA ribosomal 16s se encuentra en todos los organismos. Este gen contiene reg
 #Referencias
 http://www.encuentros.uma.es/encuentros49/marcadores.html
 Valenzuela-González, F., Casillas-Hernández, R., Villalpando, E. y Vargas-Albores, F. (2015). El gen ARNr 16S en el estudio de comunidades microbianas marinas. Ciencias marinas, 41(4), 297-313.
+
+https://es.wikipedia.org/wiki/BLAST
